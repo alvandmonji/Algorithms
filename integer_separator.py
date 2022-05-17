@@ -1,4 +1,4 @@
-def integer_dynamic_separator(number, n):
+def dynamic_integer_separator(number, n):
     str_num = str(number)
     num_list = []
     while str_num.isdigit():
@@ -7,5 +7,5 @@ def integer_dynamic_separator(number, n):
     return ",".join(reversed(num_list))
 
 
-integer_dynamic_separator(13858124533, 3)
+dynamic_integer_separator(13858124533, 3)
 "13,858,124,533"
